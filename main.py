@@ -1,14 +1,27 @@
+# tovabbfejlesztes nelkul
 a = []
-while True:
-    inp = input(f"Adj meg egy számot({len(a)+1}): ")
-    if inp == "":
-        break
-    else:
-        a.append(int(inp))
+while 6 > len(a):
+    inp = input(f"Adj meg egy számot({len(a)+1}/6): ")
+    a.append(int(inp))
 
-for i in range (1,len(a)):
+for i in range (1,6):
     j = i-1
     while j >= 0 and a[j] > a[j+1]:
         a[j], a[j+1] = a[j+1], a[j]
         j = j-1
+print(a)
+
+#tovabbfejlesztes
+a = []
+while 6 > len(a):
+    inp = input(f"Adj meg egy számot({len(a)+1}/6): ")
+    a.append(int(inp))
+
+for i in range (1,6):
+    j = i-1
+    tmp = a[i]
+    while  j>=0 and a[j]>tmp:
+        a[j+1] = a[j]
+        j = j-1
+    a[j+1] = tmp
 print(a)
