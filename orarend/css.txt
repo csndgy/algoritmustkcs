@@ -1,0 +1,32 @@
+body{
+    background-color: #444444;
+    color: white;
+}
+
+table, th, td{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+th, td{
+    border-radius: 8px;
+    border-spacing: 5px;
+    background-color: #313131;
+}
+
+td {
+    height: 10px;
+    width: 10px;
+    font-size: 2em;
+}
+
+.jobb {
+    text-align: right;
+    padding: 5px;
+}
+
+.kozepre {
+    text-align: center;
+    padding: 5px;
+}
+
+.egyora {}
