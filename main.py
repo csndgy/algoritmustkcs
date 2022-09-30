@@ -1,4 +1,4 @@
-# tovabbfejlesztes nelkul
+# Beszúró rendezés
 a = []
 while 6 > len(a):
     inp = input(f"Adj meg egy számot({len(a)+1}/6): ")
@@ -11,7 +11,7 @@ for i in range (1,6):
         j = j-1
 print(a)
 
-#tovabbfejlesztes
+# Beszúró rendezés továbbfejlesztése
 a = []
 while 6 > len(a):
     inp = input(f"Adj meg egy számot({len(a)+1}/6): ")
